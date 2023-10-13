@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <title>Validar CPF</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1 class="text-dourado">Validar CPF</h1>
+      </header>
+      
+      <form id="myForm">
+        <label class="text-dourado" for="cpf">Digite o CPF :</label>
+        <input class="text-dourado" type="text" id="cpf" name="cpf" placeholder="Exemplo: 12345678901" />
+        <button type="submit" aria-label="Enviar formulário de CPF" id="submit">Enviar</button>
+      </form>
+    </div>
+
+    <div id="modal" class="modal">
+      <div class="modal-content">
+        <span id="closeModalBtn" class="close">&times;</span>
+        <h2>Resultado</h2>
+        <div class="resposta">
+          <p id="modalMessage"></p>
+        </div>
+      </div>
+    </div>
+
+    <footer class="attribution">
+      Challenge by
+      <a class="text-dourado" href="https://github.com/VictorParizio" target="_blank">Frontend Mentor.</a>
+      Coded by
+      <a class="text-dourado" href="https://www.linkedin.com/in/victorpariziobackend/" target="_blank">Victor Parizio.</a>
+    </footer>
+
+    <script src="index.js"></script>
+  </body>
+</html>
