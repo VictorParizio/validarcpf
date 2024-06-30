@@ -48,6 +48,8 @@ document.getElementById('myForm').addEventListener('submit', function (e) {
     digito10 = 11 - digito10
   }
 
+  console.log(digito10)
+
   if (digito10 !== digitos[9]) {
     openModalWithMessage('Inválido')
   } else {
@@ -64,6 +66,7 @@ document.getElementById('myForm').addEventListener('submit', function (e) {
     } else {
       digito11 = 11 - digito11
     }
+    console.log(digito11)
 
     if (digito11 !== digitos[10]) {
       openModalWithMessage('Inválido')
